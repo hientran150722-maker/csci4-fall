@@ -6,5 +6,5 @@ Hihi = ["words", "python"]
 a = numpy.array(Hihi)
 print(Haha)
 print(a)
-
+print(Hihi)
 
