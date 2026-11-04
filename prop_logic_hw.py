@@ -20,5 +20,18 @@ def prop_1():
          
         print(i)
 
-prop_1()
 
+
+def prop_2():
+    for i in table_col:
+        if i[1] == False and i[2] == False:
+            i.append(False)
+        else:
+            i.append(True)
+        if i[0] == False or (i[0]==True and i[3]==True):
+            i.append(True)
+        else:
+            i.append(False)
+        print(i)
+
+prop_2()
